@@ -1,0 +1,36 @@
+.button {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+  background-color: #94a6a6;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+}
+.button__light {
+  border-bottom-left-radius: 1.13vw;
+  background: url("../images/VectorSun.svg") center center no-repeat;
+  background-size: 70% 70%;
+}
+.button__light-active {
+  background-color: #fff3da;
+}
+@media screen and (max-width: 900px) {
+  .button__light {
+    background-size: 50% 50%;
+  }
+}
+.button__dark {
+  background: #94a6a6 url("../images/VectorMoon.svg") center center no-repeat;
+  background-size: 70% 70%;
+}
+.button__dark-active {
+  background-color: #000000;
+}
+@media screen and (max-width: 900px) {
+  .button__dark {
+    background-size: 50% 50%;
+  }
+}

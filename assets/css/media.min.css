@@ -1,0 +1,146 @@
+@media screen and (max-width: 900px) {
+  .header {
+    flex-direction: column;
+    margin-bottom: 2vw;
+  }
+  .header__nav {
+    width: 90vw;
+    padding-left: 3vw;
+    padding-top: 1vw;
+  }
+  .header__link {
+    font-size: 2.5vw;
+    line-height: 2.9vw;
+  }
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 160vh;
+  }
+  .main__content {
+    width: 100%;
+  }
+  .main__about {
+    width: 80%;
+    height: 45vh;
+    margin: 0 auto;
+    margin-top: 9vw;
+  }
+  .main__about p {
+    font-size: 2.5vw;
+    line-height: 2.9vw;
+    text-align: justify;
+  }
+  .main__feature {
+    width: 96vw;
+    position: relative;
+  }
+  .main .feature__general {
+    width: 55vw;
+    margin-left: -6vw;
+  }
+  .main .feature__text p {
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+  .main .feature__text p span {
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+  .main .feature__lamp {
+    position: absolute;
+    width: 39vw;
+    height: 55vw;
+    left: 40vw;
+  }
+  .main .slider {
+    width: 23vw;
+    height: 45vw;
+  }
+  .main .slider__list {
+    width: 23vw;
+    height: 43vw;
+  }
+  .main .slider__item {
+    width: 18vw;
+    height: 18vw;
+  }
+  .main .slider__footer {
+    height: 10vw;
+  }
+  .main .preview {
+    margin: 0 auto;
+    width: 80vw;
+    height: 90vw;
+    left: 15vw;
+    margin-top: 5vw;
+  }
+  .main .preview__room {
+    min-height: 100vh;
+  }
+  .main .preview__lamp {
+    min-width: 35vw;
+    min-height: 20vw;
+    left: 5vw;
+  }
+}
+@media screen and (max-width: 550px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 160vh;
+  }
+  .main__content {
+    width: 100%;
+  }
+  .main__about {
+    width: 80%;
+    height: 25vh;
+    margin: 0 auto;
+    margin-top: 9vw;
+  }
+  .main__about p {
+    font-size: 2.5vw;
+    line-height: 2.9vw;
+    text-align: justify;
+  }
+  .main__feature {
+    width: 96vw;
+    position: relative;
+  }
+  .main .feature__general {
+    width: 55vw;
+    margin-left: -6vw;
+  }
+  .main .feature__text p {
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+  .main .feature__text p span {
+    font-size: 2vw;
+    line-height: 2.5vw;
+  }
+  .main .feature__lamp {
+    position: absolute;
+    width: 39vw;
+    height: 55vw;
+    left: 40vw;
+  }
+  .main .preview {
+    margin: 0;
+    width: 80vw;
+    height: 90vw;
+    left: 15vw;
+    margin-top: 5vw;
+  }
+  .main .preview__room {
+    min-height: 100vh;
+  }
+  .main .preview__lamp {
+    min-width: 35vw;
+    min-height: 20vw;
+    left: 5vw;
+  }
+}
